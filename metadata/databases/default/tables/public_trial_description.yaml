@@ -1,0 +1,7 @@
+table:
+  schema: public
+  name: trial_description
+object_relationships:
+  - name: trial
+    using:
+      foreign_key_constraint_on: trial_id

@@ -1,0 +1,39 @@
+table:
+  schema: public
+  name: trial
+array_relationships:
+  - name: trial_contacts
+    using:
+      foreign_key_constraint_on:
+        column: trial_id
+        table:
+          schema: public
+          name: trial_contact
+  - name: trial_criteria
+    using:
+      foreign_key_constraint_on:
+        column: trial_id
+        table:
+          schema: public
+          name: trial_criteria
+  - name: trial_descriptions
+    using:
+      foreign_key_constraint_on:
+        column: trial_id
+        table:
+          schema: public
+          name: trial_description
+  - name: trial_registrations
+    using:
+      foreign_key_constraint_on:
+        column: trial_id
+        table:
+          schema: public
+          name: trial_registration
+  - name: trial_results
+    using:
+      foreign_key_constraint_on:
+        column: trial_id
+        table:
+          schema: public
+          name: trial_results

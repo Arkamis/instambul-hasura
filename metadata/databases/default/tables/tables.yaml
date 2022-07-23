@@ -1,0 +1,6 @@
+- "!include public_trial.yaml"
+- "!include public_trial_contact.yaml"
+- "!include public_trial_criteria.yaml"
+- "!include public_trial_description.yaml"
+- "!include public_trial_registration.yaml"
+- "!include public_trial_results.yaml"

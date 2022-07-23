@@ -1,0 +1,7 @@
+version: 3
+endpoint: https://direct-mammoth-76.hasura.app
+admin_secret: aHy7fvV6GxkHWDtOsPgenKYQaafoDVmBwVhk8yVeJLrjz0eSwALJeaDrydIu6pK1
+metadata_directory: metadata
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
